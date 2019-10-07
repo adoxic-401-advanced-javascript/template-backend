@@ -35,7 +35,7 @@
     "supertest": "^4.0.2"
   },
   "jest": {
-    "preset": "@shelf/jest-mongodb",
+    "testEnvironment": "node",
     "setupFilesAfterEnv": [
       "<rootDir>/e2e/setup.js"
     ]
